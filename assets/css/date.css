@@ -1,0 +1,177 @@
+/*CSS Part */
+
+table {
+    background: white;
+    color: black;
+}
+  
+th,
+td {
+    font-weight: bold;
+}
+th {
+    text-align: center !important;
+}
+td, th {
+    padding: 12px !important;
+    text-align: center !important;
+}
+td{
+    padding: 12px !important;
+    text-align: center !important;
+    /* border: 1px solid #f0f0f0; */
+    border-collapse: collapse;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px !important;
+}
+table {
+    border-collapse: separate !important;
+    border-spacing: 10px !important;
+    position: relative;
+    top: -33px;
+    color:#918F90 !important;
+}
+.h2, h2 {
+    font-size: 22px !important;
+}
+.gly-icon-doc{
+    border: 1px solid #f0f0f0;
+    border-radius: 50% !important;
+    font-size: 18px;
+    padding: 6px;
+    background-color: #f0f0f0;
+    /* padding-left: 10px; */
+    position: relative;
+    /* left: -21px; */
+    right: 20px;
+}
+.gly-icon-doc-right{
+    border: 1px solid #f0f0f0;
+    border-radius: 50% !important;
+    font-size: 18px;
+    padding: 6px;
+    background-color: #f0f0f0;
+    /* padding-left: 10px; */
+    position: relative;
+    /* left: -21px; */
+    left: 20px;
+}
+td.td-color {
+    border-color: #FAC926 !important;
+    color: #FAC926 !important;
+}
+.remove-deco-doc{
+        text-decoration: none !important;
+}
+.remove-deco-doc:hover{
+    text-decoration: none;
+}
+p.doc-p-txt{
+    font-size: 7px !important;
+    width: 180px;
+    margin-bottom: 0px !important;
+     color: #2CB934;
+}
+.alg-doc-time{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 16px
+}
+.btn-doc-drak{
+    height: 43px;
+    width: 115px;
+    background-color: #000 !important;
+    color: #fff;
+}
+.btn-doc-orange{
+    height: 43px;
+    width: 112px;
+    background-color: #FFCC0F !important;
+    /* color: #fff; */
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    position: absolute;
+    /* margin-right: 8px; */
+    margin-left: -21px;
+    border-radius: 7px !important;
+    border: 3px solid #fff !important;
+}
+.btn-default{
+    font-weight: 600 !important;
+}
+.alert-success {
+    color: #000 !important;
+    background-color: #CCC !important;
+    border-color: #CCC !important;
+    width: 91% !important;
+    position: relative;
+    left: 3px !important;
+    text-decoration: none !important;
+}
+.alert-doc-alg{
+    width: 97%;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 44px;
+    text-decoration: none !important;
+    font-size: 16px;
+    color:#f0f0f0 !important;
+}
+.alert:hover{
+    text-decoration: none !important;
+}
+.alert-success:hover{
+    text-decoration: none !important;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: transparent !important;
+    outline: none !important;
+}
+.doc-Special{
+    border: 2px solid #f0f0f0;
+    padding-left: 7px !important;
+    /* padding-right: 0px !important; */
+    margin: 16px !important;
+    border-radius: 10px !important;
+}
+.doc-alg-special{
+    text-align: center;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+.txt-alg-doc {
+    text-align: center;
+    color: #786D6B;
+}
+.txt-doc-list{
+    border: 1px solid #f0f0f0;
+    color: #786D6B;
+    padding: 4px;
+    border-radius: 4px;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.row.doc-alg-special{
+    margin-left: -25px !important;
+    margin-right: -25px !important;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+    outline: none!important;
+    outline-color: transparent!important;
+}
+@media (min-width: 768px){
+.col-sm-3 {
+    width: 22% !important;
+}
+}
